@@ -1,4 +1,7 @@
 from fastapi import FastAPI
+import os
+
+APP_ENV = os.getenv("APP_ENV", "development")
 
 app = FastAPI(
     title="AI Engineer Docker Lab",
@@ -21,4 +24,5 @@ def root():
         "message": "AI Engineer Docker Lab",
         "docs": "/docs",
         "version": "1.0.0",
+        "environment": APP_ENV,
     }

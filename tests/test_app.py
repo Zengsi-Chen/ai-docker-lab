@@ -23,6 +23,7 @@ def test_root():
         "message": "AI Engineer Docker Lab",
         "docs": "/docs",
         "version": "1.0.0",
+        "environment": "production",
     }
 
 

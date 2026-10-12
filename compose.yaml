@@ -5,3 +5,5 @@ services:
     container_name: ai-docker-lab
     ports:
       - "8000:8000"
+    environment:
+      APP_ENV: production
