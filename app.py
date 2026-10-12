@@ -20,4 +20,5 @@ def root():
     return {
         "message": "AI Engineer Docker Lab",
         "docs": "/docs",
+        "version": "1.0.0",
     }
