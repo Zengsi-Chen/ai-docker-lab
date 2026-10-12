@@ -1,0 +1,7 @@
+services:
+  app:
+    build: .
+    image: ai-docker-lab:v1
+    container_name: ai-docker-lab
+    ports:
+      - "8000:8000"
