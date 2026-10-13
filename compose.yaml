@@ -14,3 +14,6 @@ services:
       timeout: 5s
       retries: 3
       start_period: 10s
+    restart: unless-stopped
+    cpus: "1.0"
+    mem_limit: 512m
